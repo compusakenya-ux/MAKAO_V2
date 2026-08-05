@@ -1,0 +1,6 @@
+{
+  "name": "MAKAO",
+  "description": "Kenya's one-stop platform for all your Rental Transactions, property discovery, saved homes, and booking management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
