@@ -1,0 +1,22 @@
+{
+  "name": "MAKAO - Kenya Rental Platform",
+  "short_name": "MAKAO",
+  "description": "Kenya's one-stop platform for rental properties, viewings, and M-Pesa lease deposits.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fffbff",
+  "theme_color": "#e040a0",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkdLtkxhYwkAzL_8_6VcAf6JpSHKayeX-D-i4Z2j1rw2i_b89tCYdBfmA0I1i0KWsTYUHGZToNbJJiGhm06YDclx-riWH6Wm2ukmP40qGoyJsTYAKfVbfNHLc0w7ZBcFs7CqS4o6isQAVyi9EGztmzMGCKDOQTbCSycYsnO6rAZ_MEMwRXSP6PcfX8D9YJvn_AFtMVrLD8xrxyrsLTnXO699IWNVpDEdL4RiKvalkYXxrRYJBKysqoPA",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkdLtkxhYwkAzL_8_6VcAf6JpSHKayeX-D-i4Z2j1rw2i_b89tCYdBfmA0I1i0KWsTYUHGZToNbJJiGhm06YDclx-riWH6Wm2ukmP40qGoyJsTYAKfVbfNHLc0w7ZBcFs7CqS4o6isQAVyi9EGztmzMGCKDOQTbCSycYsnO6rAZ_MEMwRXSP6PcfX8D9YJvn_AFtMVrLD8xrxyrsLTnXO699IWNVpDEdL4RiKvalkYXxrRYJBKysqoPA",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
