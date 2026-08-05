@@ -1,0 +1,32 @@
+doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAKAO - Rental Transactions & Properties</title>
+    <meta name="theme-color" content="#e040a0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MAKAO" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/aida-public/AB6AXuDkdLtkxhYwkAzL_8_6VcAf6JpSHKayeX-D-i4Z2j1rw2i_b89tCYdBfmA0I1i0KWsTYUHGZToNbJJiGhm06YDclx-riWH6Wm2ukmP40qGoyJsTYAKfVbfNHLc0w7ZBcFs7CqS4o6isQAVyi9EGztmzMGCKDOQTbCSycYsnO6rAZ_MEMwRXSP6PcfX8D9YJvn_AFtMVrLD8xrxyrsLTnXO699IWNVpDEdL4RiKvalkYXxrRYJBKysqoPA" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('SW registration failed:', err);
+          });
+        });
+      }
+    </script>
+  </head>
+  <body class="bg-[#fffbff] text-[#201a1d] min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
